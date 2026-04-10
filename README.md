@@ -1,4 +1,4 @@
-# SemEval 2026 Task 13 — AI-Generated Code Detection
+# SemEval 2026 Task 13 — Human vs AI Code Detection using StarCoder2 - 3B
 
 Submission for **SemEval 2026 Task 13: Distinguishing AI-Generated Code from Human-Written Code**, covering all three subtasks. The system uses a hybrid architecture combining a frozen StarCoder2-3B backbone with handcrafted stylometric, pattern, and AST features.
 
@@ -24,6 +24,10 @@ Classify code as one of:
 - **Machine-generated** — produced entirely by an LLM
 - **Hybrid** — partially written or completed by an LLM
 - **Adversarial** — generated via adversarial prompts or RLHF to mimic human style
+
+### Final Data and Trained Models
+- [HuggingFace Model URL](https://huggingface.co/Kathan0/semeval2026-task13-models/tree/main)
+- [HuggingFace Repo (Data used for competition results)](https://huggingface.co/datasets/Kathan0/INLP_Endsem/tree/main)
 
 ---
 
@@ -124,7 +128,6 @@ INLP_Endsem/
 - Python 3.10+
 - CUDA-capable GPU (8GB+ VRAM recommended; 16GB for batch extraction)
 - [Competition datasets](https://github.com/mbzuai-nlp/SemEval-2026-Task13)
-- [HuggingFace Repo (Data used for competition results)](https://huggingface.co/datasets/Kathan0/INLP_Endsem/tree/main)
 
 ### Installation
 
