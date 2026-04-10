@@ -25,7 +25,7 @@ Classify code as one of:
 - **Hybrid** — partially written or completed by an LLM
 - **Adversarial** — generated via adversarial prompts or RLHF to mimic human style
 
-### Models used for competition
+### Final Trained Models
 - [HuggingFace Model URL](https://huggingface.co/Kathan0/semeval2026-task13-models/tree/main)
 
 ---
