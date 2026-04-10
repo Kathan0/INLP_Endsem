@@ -1,4 +1,4 @@
-# SemEval 2026 Task 13 — AI-Generated Code Detection using STarCoder2 - 3B
+# SemEval 2026 Task 13 — AI-Generated Code Detection using StarCoder2 - 3B
 
 Submission for **SemEval 2026 Task 13: Distinguishing AI-Generated Code from Human-Written Code**, covering all three subtasks. The system uses a hybrid architecture combining a frozen StarCoder2-3B backbone with handcrafted stylometric, pattern, and AST features.
 
