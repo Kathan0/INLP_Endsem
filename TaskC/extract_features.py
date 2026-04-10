@@ -23,8 +23,7 @@ from pathlib import Path
 from tqdm import tqdm
 from multiprocessing import Pool, cpu_count
 
-# Import feature extractors from MyProject (shared with TaskA)
-sys.path.append(str(Path(__file__).parent.parent / "MyProject" / "src"))
+sys.path.append(str(Path(__file__).parent.parent))
 from features.stylometric import StylometricExtractor
 from features.pattern_detector import EnhancedPatternDetector
 from features.ast_extractor import EnhancedASTExtractor

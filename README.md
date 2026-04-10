@@ -106,6 +106,11 @@ INLP_Endsem/
 │   ├── generate_submission.py
 │   ├── run_pipeline.py
 │   └── REPORT.md
+├── features/                    # Shared handcrafted feature extractors
+│   ├── stylometric.py           # 12-dim style features (indentation, naming, comments)
+│   ├── pattern_detector.py      # 57-dim LLM-signature pattern features
+│   ├── ast_extractor.py         # 33-dim AST structural features
+│   └── __init__.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
